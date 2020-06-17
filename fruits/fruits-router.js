@@ -4,11 +4,11 @@ const knex = require('knex');
 
 //configured a connection to the database
 const knexConfig = knex({
-  client: 'sqlite3',
-  connection: {
-    filename: './data/produce.db3'
+  client: 'sqlite3',// db driver
+  connection: { // could be an object or a string
+    filename: './data/produce.db3' 
   },
-  useNullAsDefault: true
+  useNullAsDefault: true // only needed for sqlite
 });
 
 const router = express.Router();
