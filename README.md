@@ -5,7 +5,7 @@
 // knex init 
 //move the object from connection.js into the development property
 // update connection.js to require knexfile and use the development property
-
+//create a migration with knex migrate:make vegetables
 
 
 
