@@ -1,5 +1,14 @@
 # DB II Guided Project
 
+
+// npm i -g knex
+// knex init 
+//move the object from connection.js into the development property
+// update connection.js to require knexfile and use the development property
+
+
+
+
 Guided project **DB II** Module.
 
 ## Prerequisites
