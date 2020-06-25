@@ -7,6 +7,8 @@
 // update connection.js to require knexfile and use the development property
 //create a migration with knex migrate:make vegetables
 //change the migration with knex migrate:latest
+// knex migrate:up or down it's like going back one migration it's like clicking front or back in your browser
+// knex latest automatically updates to the latest migration
 
 
 Guided project **DB II** Module.

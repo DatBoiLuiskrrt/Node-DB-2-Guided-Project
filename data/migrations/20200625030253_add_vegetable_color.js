@@ -10,3 +10,5 @@ exports.down = function(knex) {
       tbl.dropColumn('color');
   })
 };
+
+// This table creates a new row in our vegetable column
