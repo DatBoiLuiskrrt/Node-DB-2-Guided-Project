@@ -6,5 +6,7 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-  
+  return knex.schema.table('vegetable', tbl => {
+      tbl.dropColumn('color');
+  })
 };
